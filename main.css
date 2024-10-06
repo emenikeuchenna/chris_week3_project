@@ -1,0 +1,300 @@
+		*{
+			margin:0px;
+			padding:0px;
+			
+		}
+		div{
+			
+			min-height: 200px;
+			width:100%;
+			display:flex;
+			margin:auto;
+			
+		}
+		.nav{
+			min-height:50px;
+			width:100%;
+			border: 1px solid black;
+			border-radius: 20px;
+			position:fixed;
+			background-color:ghostwhite;
+		}
+		.logo{
+			width:40%;
+			min-height:40px;
+			font-family: Algerian, seriff;
+			justify-content:center;
+			padding-top:10px;
+			
+			
+		}
+		.logo a:hover{
+			background:black;
+			border-radius:10px;
+			padding:2px;
+		}
+		.links{
+			width:55%;
+			min-height:30px;
+			padding:10px 15px;
+			
+		}
+		.logo a{
+			text-decoration:none;
+			margin-left:30px;
+			color: red;
+			padding-bottom:10px;
+			
+			
+		}
+		ul{
+			list-style:none;
+		}
+		.links ul li{
+			display:inline-block;		
+		}
+		ul li a{
+			text-decoration:none;
+			padding-left:30px;
+			margin:20px;
+			color:black;
+		}
+		ul li a:hover{
+			background-color:grey;
+			padding:10px;
+			border-radius:10px;
+		}
+			.banner{
+				min-height:700px;
+				width:100%;
+				background-image: url(images/img2.jpg);
+				background-size:center;
+			}
+			.overlay{
+				min-height:inherit;
+				width:100%;
+				display:flex;
+				flex-direction:column;
+				justify-content:center;
+				align-items:top;
+				background:rgba(0,8,9,0.5);
+				padding-left:30px;
+			}
+			.overlay h1{
+				font-family: roboto, sans-seriff;
+				font-size:50px;
+				color:white;
+				margin-bottom:20px;
+				margin-left:10px;
+				background-color:black ;
+				width:28%;
+				padding:5px 8px;
+				border-radius:10px;
+			}
+			.overlay p{
+				background-color:white;
+				width:25%;
+				color:black;
+				margin-left:35px;
+				font-size:20px;
+				font-family: roboto, sans-seriff;
+				border-radius:10px;
+				padding-left:10px;
+			}
+			.overlay button{
+				width:10%;
+				background-color:red;
+				color:black;
+				font-size:15px;
+				padding:10px 20px;
+				margin-top:50px;
+				margin-left:130px;
+				border-radius:10px;
+			}
+			.overlay button a{
+				text-decoration:none;
+			}
+			.intro{
+				min-height:100px;
+				width:100%;
+				align-items: center;
+			}
+			.intro h1{
+				margin-left:600px;
+				flex-direction:column;
+				color:red;
+				border:1px solid grey;
+				border-radius:10px;
+				font-family:roboto, sans-seriff;
+			}
+			.feat1{
+				flex-direction:column;
+				background-color:#E1E2E4;
+			}
+			.feat1 h3{
+					font-family: roboto;
+					font-size:30px;
+					text-align: center;
+			}
+			.feat1 ul{
+				font-family: roboto;
+					font-size:15px;
+					padding-left:20px;
+			}
+			.feat1 ul li{
+				margin:10px;
+			}
+			.feat2 [src]{
+				width:60%;
+				padding:10px;
+				background-color:#E1E2E4;
+			}
+			.feat div{
+				min-height:300px;
+				width:30%;
+				justify-content:space-around;
+			}
+			.mid{
+				min-height:60px;
+				width:100%;
+			}
+			.content div{
+				min-height:330px;
+				width:35%;
+				justify-content:space-around;
+				margin-top:10px;
+			}
+			.conc div{
+				max-width:35%;
+				margin:20px;
+			}
+			.conc .feat1 ul li{
+				font-family: roboto, sans-seriff;
+					font-size:15px;
+					padding-left:20px;
+					
+			}
+			.cont{
+				max-height:200px;
+				max-width:50%;
+			}
+			.footer{
+				min-height:100px;
+				width:100%;
+				background-color:black;
+				color:white;
+				justify-content:center;
+				align-items:center;
+			}
+			.feat1 form textarea{
+				margin-left: 10px;
+				width:40%;
+				min-height:300px;
+				margin-bottom: 10px;
+			}
+			.feat1 form input{
+				width:30%;
+				padding:10px 20px;
+				margin:10px;
+				
+			}
+			.feat1 form button{
+				margin-left:200px;
+				margin-bottom: 10px;
+				padding: 10px 20px;
+				background-color:red;
+			}
+	@media screen and (max-width:480px){
+		
+		ul{
+			font-size: 5px;
+		}
+		
+		.nav{
+			width:20%;
+		}
+		.links a{
+			width:100%;
+			font-size:10px;
+		}
+		.banner{
+			min-height:50px;
+			width:50%;
+			background-size:cover;
+			background-repeat:none;
+			justify-content:center;
+			flex-wrap:wrap;
+		}
+		#meet{
+			font-size:10px;
+			padding-left:0px;
+		}
+		.feat{
+		flex-direction:column;
+		margin:0px;
+		}
+		.content{
+		flex-direction:column;
+		margin:0px;
+		}
+		.conc{
+		flex-direction:column;
+		margin:0px;
+		width:30px;
+		}
+
+
+
+
+
+
+
+		@media all and (max-width:480px){
+	.nav{
+		flex-direction:column;
+	}
+	
+	h3{
+		font-size:18px;
+	}
+}
+
+
+@media all and (min-width:481px) and (max-width:900px){
+	
+		
+	
+	}
+	.intro .feat .feat1 .feat2 .mid .content .contact .footer{
+		flex-wrap:wrap;
+
+		width: 45%;
+
+	}
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
